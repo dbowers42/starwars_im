@@ -1,0 +1,8 @@
+<div class="users">
+  <% @users.each do |user| %>
+      <%= render partial: 'home/chat/card', locals: {user: user} %>
+  <% end %>
+  <div class="leave">
+    <%= button_to 'Leave', action: :leave %>
+  </div>
+</div>

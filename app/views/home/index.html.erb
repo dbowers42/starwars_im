@@ -1,0 +1,9 @@
+<div class="home">
+  <%= form_tag :action => :join do %>
+      <div class="login">
+        <div class="screen-name">Screen Name</div>
+        <%= collection_select :user, :user_id, @offline_users, :id, :screen_name %>
+        <%= submit_tag 'Join' %>
+      </div>
+  <% end %>
+</div>

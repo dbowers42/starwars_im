@@ -1,0 +1,11 @@
+@import 'chat/card';
+@import 'chat/conversation';
+@import 'chat/messages';
+@import 'chat/messenger';
+@import 'chat/message';
+@import 'chat/users';
+
+.chat {
+  display: flex;
+  flex-direction: row;
+}
