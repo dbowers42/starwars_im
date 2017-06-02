@@ -7,10 +7,11 @@
   background-color: #124a80;
 
   textarea {
-    margin: 20px;
+    margin: 10px;
     border: 1px solid #000000;
     box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset 2px 2px 2px rgba(0, 0, 0, .4);
     font-size: 14pt;
+    width: 50%;
   }
 
   .send {
