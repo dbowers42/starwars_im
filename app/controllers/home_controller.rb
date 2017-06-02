@@ -15,7 +15,7 @@ class HomeController < ApplicationController
   end
 
   def chat
-    @messages = Message.all.order('created_at DESC')
+    @messages = Message.all.order('created_at')
   end
 
   def leave

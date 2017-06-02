@@ -14,6 +14,6 @@ class User < ApplicationRecord
   has_many :messages
 
   def last_message
-    messages.order('created_at DESC').first
+    messages.order('created_at').first
   end
 end
