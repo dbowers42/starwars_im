@@ -8,15 +8,16 @@ you will be able to see who else is online and interact with them.
 ## Running the app
 
 * Clone the repository
-* Change to the application directory
+* Change to the project folder
 * run `bundle` 
 * run `rake db:setup`
 * run `rails s`
 
 A server will be started on the local machine
 
-Open one or web browsers and point them at http://localhost:3000.
+Open one or more web browsers and point them at http://localhost:3000.
 
 ### Optionally 
 You could also open a web browsers on one or more devices connected 
-to your local network and use the ip address of the machine hosting this app.
+to your local network and use the ip address of the machine hosting the 
+app http://<ip-address>:3000.
