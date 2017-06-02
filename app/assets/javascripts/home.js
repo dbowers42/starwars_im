@@ -1,7 +1,7 @@
 $(() => {
     console.log('document loaded')
 
-    function sendMessage(){
+    function sendMessage() {
         let txtMessenger = $('#txtMessenger')
         let message = txtMessenger.val()
 
@@ -12,12 +12,14 @@ $(() => {
     }
 
     $('#btnSend').click(() => {
-       sendMessage()
+        sendMessage()
     })
 
     $(document).keypress((e) => {
-        if(e.which == 13) {
+        if (e.which == 13) {
             sendMessage()
         }
     });
+
+    $('.message:last').get(0).scrollIntoView()
 })
