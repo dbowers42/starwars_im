@@ -3,7 +3,7 @@ class HomeController < ApplicationController
   before_action :set_current_user, only: [:join, :leave]
 
   def index
-
+    cookies.delete :screen_name
   end
 
   def join
